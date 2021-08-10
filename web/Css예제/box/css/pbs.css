@@ -1,0 +1,13 @@
+div{text-align:center; width:500px; background:pink;}
+
+
+div.simple{ margin:20px auto;}
+
+div.fancy{ padding:150px;  margin:20px auto; border:solid 20px blue; box-sizing:content-box; /*주나안주나 기본*/ }
+
+div.fancy1{padding:150px;  margin:20px auto; border:solid 20px blue; box-sizing:border-box; }
+
+div.fancy2{height:300px;  padding:10px; margin:20px auto; border:solid 20px blue; box-sizing:border-box; line-height:240px;}
+
+
+/*높이 행간 동일시하시오! 높이 - 패딩2,보더2 합산 */

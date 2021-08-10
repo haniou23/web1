@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="utf-8">
+  <title>시멘틱 태그</title> 
+<!--태그에 의미를 부여해 컴퓨터가 정보를 이해하고 정보를 주고받고 처리하는 지능형 웹-->
+
+</head>
+ <body>
+
+  <header>
+  
+  </header>
+  
+   <nav>
+    HTML5 - nav:문서 전체 혹은 섹션의 네비게이션 영역 표현
+	           웹 페이지의 탐색 링크를 위한 컨테이너 역할
+			   
+    <ul>
+	 <li> menu </li>
+	 
+	 <li> menu </li>
+	 
+	 <li> menu </li>
+	 
+	 </ul>
+	 
+	 </nav>
+	 
+	 
+	 
+	 <section> HTML5 - section : 웹 문서의 한 부분, 한 장을 구분하는데 사용
+	               
+				   주제나 챕터 그룹화된 엘리먼트들을 묶는 컨테이너 역할
+				   문서 내 영역의 범위를 한정하며 문서의 아웃라인을 구성
+				   
+				   각 섹션은 내부에 제목을 하나만 가질 수 있음.
+	 
+	 
+	 
+	 
+	 
+	 
+	 <header> HTML5 - section - header </header>
+   
+     <article>
+	 
+	 
+	      
+		 HTML5 - section - article 1 : 문서에서 독립적인 개별 내용을 구분하는데 사용
+		          뉴스 항목, 블로그 본문과 같이 자체적으로 배포될 수 있는 독립 영역을 지정
+	 
+	 
+	 
+	 
+	  <h1> article제목태그 </h1>  
+	                 제목태그나 의미부여, 심볼 로고에 사용됨,
+	  
+	  <p> hello.... </p>
+	  
+	  </article>
+	  
+	  <article>
+	 
+	 
+	      
+		 HTML5 - section - article 1 : 문서에서 독립적인 개별 내용을 구분하는데 사용
+		          뉴스 항목, 블로그 본문과 같이 자체적으로 배포될 수 있는 독립 영역을 지정
+	 
+	 
+	 
+	 
+	  <h1> article제목태그 </h1>  
+	                 제목태그나 의미부여, 심볼 로고에 사용됨,
+	  
+	  <p> hello.... </p>
+	  
+	  </article>
+	  
+	  <footer>
+	    HTML5 - section - footer : 웹 문서의 바닥글을 정의합니다
+		                         페이지 전체 바닥 글이나 일부분의 바닥글을 정의하는데 사용합니다.
+								 
+	  
+	   <address>    HTML5 - section - address : 문서를 제공하는 저자의 연락처 정보 등의 부가정보를 표현합니다.
+	   
+	   </address>          어드레스는 기본 속성이 이탤릭이라 기본 속성으로 바꿔야함
+	   
+	  </footer>
+	  
+	  </section>
+	  
+	  
+	  
+	  <aside>  HTML5 - aside : 문서의 주요 내용과는 별개의 영역을 정의하는데 사용됨
+	                           광고 , 즐겨찾기 링크 등과 같이 주변의 내용과는 별도로 다뤄지는 영역 , 좌 우 퀵배너 사용자 편의성
+	  
+	  
+	  </aside>
+	  
+	  
+	  <footer> HTML5 - footer
+	    <address> HTML5 - footer - address </address>
+		
+	  </footer>
+	  
+	  </body>
+	  
+	  </html>
+		
+	  

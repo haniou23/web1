@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="utf-8">
+  
+  <title>내용태그 p</title>
+  
+  <style>
+  *{margin:0; padding:0;}
+  /*모든웹 마진 여백 없앰 스타일 시작할 떄 무조건 넣고 시작!.*/
+  p{font-size:30px;}
+  p.a1 {color:pink; background:aqua;} /*텍스트칼라는 컬러만 기입 중요*/
+  /*글씨색깔은 폰트없이 컬러 백그라운드는 폰트없이 백그라운드라고만 쓴다*/
+  
+  p.a2 {font-style:italic;} /*어드레스 푸터에 이탤릭 들어가니깐 꼭 노멀로 바꿔주기.! normal*/
+  p.a3 {font-weight:bold;} / *400-900까지 굵기 선택가능 서체마다 틀림.!* /
+  p.a4 {font-family:"돋움" , dotum, "굴림" , gulim , sans-serif; } /* 돋움 없으면 굴림, 굴림 없으면 이런 식.! 영어는 따음표 없어도 됨, 고딕체*/
+  p.a5 {font-variant:small-caps;} /*small-caps는 소문자의크기 대문자*/
+  p.a6 {font: bold italic 18px/2.5 /*행간표기배율*/ "돋움",dotum , "굴림" , gulim , sans-serif;} 
+   /* 축약형! 굵기, 스타일 , 사이즈/행간 , 폰트명 */
+  p.end {font: bold 25px/45px /*행간표기고정*/ '나눔고딕',Arial,sans-serif;}
+  
+  /*.a6 {font:;} (공통정의)으로 쓰려면 순서를 맞춰서 써야함, weight style variant 크기 / 
+  line-height(간격) 서체 공통정의 시 font-size,font-family 반드시 기입해야함, 그렇지않으면 인식 못함 */
+  
+  </style>
+ 
+  
+  
+  </head>
+  
+  
+   <body>
+   
+    <p class="a1">글자컬러</p>
+    <p class="a2">글자스타일</p>
+	<p class="a3">글자굵기</p>
+	 <p class="a4">글자글꼴</p>
+	  <p class="a5_1">원래The end</p>
+	   <p class="a5">소문자크기대문자 the end</p>
+	   
+	    <p class="a6">TotalTotalTotalTotalTotalTotalTotalTotalTotalTotalTotalTotal<br>
+		TotalTotalTotalTotalTotalTotalTotalTotalTotalTotalTotalTotalTotalTotal</p>
+		
+		<p>TotalTotalTotalTotalTotalTotalTotalTotalTotalTotal<br>
+		TotalTotalTotalTotalTotalTotalTotalTotalTotalTotal<br>
+        TotalTotalTotalTotalTotalTotalTotalTotalTotalTota</p>
+   <p class="end">Lorem Ipsum is simply dummy text of the printing and typesetting industr  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookIt has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+   
+   
+   
+   
+   
+   </body>
+   
+   </html>

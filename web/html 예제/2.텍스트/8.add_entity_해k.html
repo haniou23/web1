@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="utf-8">
+  
+  <title>내용태그 p</title>
+  
+  <style>
+   address{font-style : normal;} /** 얘도 마진, 텍스트 논과 더불어 처음 필수 태그**/
+  
+   a{text-decoration : none;}
+   
+  a:hover{text-decoration : underline; color : red;}
+  
+  .page_btn{border-top : 1px solid red;
+  text-align:center;}
+                                            /*텍스트 얼라인 센터는 p와같은 블럭 구조에서 가운데로 정렬해주는 것*/
+											
+ .page_btn a {color:gray; text-align:center; font-weight:bold; font-size:12pt;}
+ 
+      /*스페이스바 들어가서 종속 관계를 정해야함*/      
+	  
+	  hr{ height : 1px; background-color: red; border:0px;} /* hr{color: red;} 이런 코드는 없음! */
+  
+  
+  </style>
+  
+ 
+  
+  </head>
+  
+  
+   <body>
+   
+   <h1>주소 태그</h1>
+   <!--entitycode.com 특수문자 사이트-->
+   <!--html5 에서는 주소태그 사용시
+   연락처(전화,이메일주소,저작권정보) 등을 address 태그로 쓰고
+   일반 주소는 p태그로도 사용가능-->
+   
+   <p>서울시 마포구 상수동 1201호</p>
+   <address>서울시 마포구 상수동 1201호</address>
+   
+   <address>COPYRIGHT &copy; ACRO. All Rights Reserverd</address>
+   
+  
+   
+   <h2>특수문자(Entitiy Name 사용)</h2>
+   
+   
+   
+      <p> you &amp; me </p>
+	  
+	  <p>&lt;br&gt; 강제로 줄바꿈</p>
+	  
+	  <p>&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;</p>
+	  
+	 
+	  <hr>
+	  
+	  <p class="page_btn">
+	  
+	   <a href ="https://www.naver.com/"> &lt; </a>
+	   <a href ="#"> LIST </a>
+	   <a href="#"> &gt; </a>
+	   
+	   </p>
+
+	  
+	  
+	 
+   
+   
+   
+   
+   
+   
+   
+   
+   </body>
+   
+   </html>

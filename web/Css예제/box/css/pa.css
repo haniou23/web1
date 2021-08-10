@@ -1,0 +1,10 @@
+div{width: 400px; background:red; color:white;}
+
+
+div#margin_div{margin :30px 30px;}
+
+div#padding_div{padding : 30px 30px; margin:20px;}
+
+div#padding1_div{padding:60px 60px; margin:30px;}
+
+div#margin1_div{margin: 30px 30px; padding:30px 30px;} 

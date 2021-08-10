@@ -1,0 +1,6 @@
+p{border:dashed 3px yellow;  color:white; background:gray; text-align:center; padding:2%;}
+
+p.box1 {margin :20px;} /*전체*/
+p.box2 {margin: 20px 50px;} /*상하 좌우*/
+p.box3 {margin:40px 50px 30px;} /*상 좌우 하*/
+p.box4 {margin:50px 30px 50px 70px;} /*상 우 하 좌*/
